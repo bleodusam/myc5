@@ -6,7 +6,7 @@
 /*   By: tin <marvin@42.fr>                         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/08 16:33:17 by tin               #+#    #+#             */
-/*   Updated: 2019/07/08 16:33:19 by tin              ###   ########.fr       */
+/*   Updated: 2019/07/09 17:11:15 by tin              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_iterative_power(int nb, int power)
 	if (nb < 0)
 		return (0);
 	x = 1;
-	while(power && nb)
+	while (power && nb)
 	{
 		x = x * nb;
 		power = power - 1;
